@@ -138,6 +138,11 @@ tmux_auto_attach() {
 }
 tmux_auto_attach
 
+# Load private env
+if [ -f ~/.env ]; then
+  source ~/.env
+fi
+
 # Add linux brew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
