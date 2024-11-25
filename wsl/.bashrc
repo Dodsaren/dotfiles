@@ -96,6 +96,7 @@ alias gst='git status'
 alias gl='git pull'
 alias gapa='git add --patch'
 alias gcmsg='git commit -m'
+alias gaa='git add --all'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
